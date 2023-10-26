@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('bg.jpg');
+    background-repeat: none;
+    background-size: cover;
+
+}
+
+#results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#results li {
+    background: rgba(253, 109, 109, 0);
+    color: white; 
+    font-weight: 700;
+    margin: 10px;
+    padding: 20px; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px lightcoral;
+}
